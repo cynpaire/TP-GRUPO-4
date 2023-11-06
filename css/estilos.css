@@ -2,7 +2,7 @@
   /*Reset*/
   padding: auto;
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Urbanist", sans-serif;
 }
 h1{
@@ -42,9 +42,8 @@ h1{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50vw;
+  height: 100vh;
   background-color: rgb(228, 201, 220);
-  padding-top: 25px;
 }
 .Inscripcion-content {
   display: flex;
@@ -63,6 +62,7 @@ form{
 }
 .Inscripcion-article button {
   color: #e81cff;
+  text-shadow: black 5px;
   background-color: #e9bcdd;
   border-radius: 10px;
 }
@@ -70,10 +70,11 @@ form{
 .Inscripcion-article p {
   padding: 25px;
 }
-.Nuestros{
+section{
     background-color: #e7bbec;
-
+    padding-top: 1.5rem;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -100,6 +101,10 @@ h2 {
   padding: 30px 0;
   text-align: center;
 }
+.form-label{
+    font-weight: bold;
+   
+}
 .card{
     margin: 5px;
     width: 15rem;
@@ -118,134 +123,43 @@ text-align: center;
 
 }
 
-.Ninos-content {
-  display: flex;
-  justify-content: center;
-}
 
 .Ninos-article {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  line-height: 20px;
-  justify-content: center;
-  text-align: center;
+
   background-color: #9dbeec;
-  border-radius: 30px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
 }
 
-.Ninos-article > p {
-  padding: 20px;
-  text-align: center;
-}
-
-.Ninos-article > h3 {
-  padding: 20px;
-  background-color: #809cc4;
-  border-radius: 20px;
-  margin: 10px;
-}
-
-.Tecnico-content {
-  display: flex;
-  justify-content: center;
-}
 
 .Tecnico-article {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  line-height: 20px;
-  text-align: center;
-  justify-content: center;
+
   background-color: #b4a7ec;
-  border-radius: 30px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+;
 }
 
-.Tecnico-article > p {
-  padding: 20px;
-  text-align: center;
-}
-
-.Tecnico-article > h3 {
-  padding: 20px;
-  background-color: #9087c0;
-  border-radius: 20px;
-  margin: 10px;
-}
-
-.Turismo-content {
-  display: flex;
-  justify-content: center;
-}
 
 .Turismo-article {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  line-height: 20px;
-  justify-content: center;
-  text-align: center;
+
   background-color: #ca90ec;
-  border-radius: 30px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
 
-.Turismo-article > p {
-  padding: 20px;
-  text-align: center;
-}
-
-.Turismo-article > h3 {
-  padding: 20px;
-  background-color: #9f72bc;
-  border-radius: 20px;
-  margin: 10px;
-}
-
-.Empresarial-content {
-  display: flex;
-  justify-content: center;
 }
 
 .Empresarial-article {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  line-height: 20px;
-  justify-content: center;
-  text-align: center;
+
   background-color: #e179ec;
-  border-radius: 30px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
 }
 
-.Empresarial-article > p {
-  padding: 20px;
-  text-align: center;
-}
 
-.Empresarial-article > h3 {
-  padding: 20px;
-  background-color: #af5db8;
-  border-radius: 20px;
-  margin: 10px;
-}
+
 .Nosotros {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #e7bbec;
+}
+.Nosotros p{
+    line-height: 1.2;
 }
 
 .Img-Nos {
@@ -260,7 +174,6 @@ text-align: center;
 .us-content {
   display: flex;
   justify-content: center;
-  border-radius: 20px;
   align-items: center;
 }
 
@@ -308,6 +221,7 @@ text-align: center;
 }
 .Comofn-article p {
     white-space: pre-line;
+    line-height: 1.2;
 }
 .medios-de-pago-content {
   display: flex;
@@ -315,23 +229,21 @@ text-align: center;
 }
 
 .medios-de-pago-article {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  line-height: 20px;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
-
-.compra {
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.contact img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 35px;
+}
 .compra > h4 {
   position: relative;
 }
